@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-size: 100%; /* base = 16px */
+        }
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f8f8f8;
+            color: #000;
+            transition: all 0.3s ease;
+        }
+        body.high-contrast {
+            background-color: #000;
+            color: #fff;
+        }
+        .container {
+            max-width: 1000px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        body.high-contrast .container {
+            background-color: #111;
+            color: #fff;
+        }
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        p {
+            font-size: 1.25rem;
+            text-align: justify;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .small-text {
+            font-size: 0.875rem;
+            text-align: center;
+        }
+        .font-controls {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .font-controls button {
+            font-size: 20px;
+            padding: 5px 15px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #000000;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+        .font-controls button:hover {
+            background-color: #000000;
+        }
+        body.high-contrast .font-controls button {
+            background-color: #444;
+            color: #fff;
+        }
+        body.high-contrast .font-controls button:hover {
+            background-color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="font-controls">
+            <button onclick="adjustFontSize(1)">+</button>
+            <button onclick="adjustFontSize(-1)">−</button>
+            <button onclick="toggleContrast()">§</button>
+        </div>
+        <h2>JEREDY E JOHN: UMA AVENTURA NA CAVERNA</h2>
+        <div class="center"><img src="IMG_1299.jpeg" width="500" height="500"></div>
+        <p class="small-text">Um pato preto chamado Jeredy e seu amigo, um pato branco olhando para a foto com um rio com patos atrás deles e aos lados do rio, uma cidade de patos.</p>
+        <p> Era uma vez, dois amigos patos chamados Jeredy e Larry, os dois tem 15 anos e vivem na cidade de Patolândia. Em um sábado, Jeredy foi almoçar na casa de seu amigo, Larry, lá eles bateram um papo e após o almoço saíram andar de bicicleta.</p>
+        <p> Eles estavam andando tranquilamente pela cidade, mas Larry teve uma ideia: _ Ei Jeredy, vamos dar uma volta na rodovia, vai ser legal.</p>
+        <p> Jeredy então respondeu: Vamos!</p>
+        <p> Então, os 2 amigos partiram na sua pedalada pela rodovia.</p>
+        <div class="center"><img src="1d921f3c-4aad-4fdc-b709-db4dc540cf50.jpeg" width="500" height="500"></div>
+        <p class="small-text">Jeredy andando em uma bicicleta vermelha com um capacete azul e Larry andando em uma bicicleta azul com capacete vermelho e vários patos atrás pela cidade.</p>
+        <p> Enquanto andavam pela rodovia, eles avistaram uma caverna, a uns 3 quilômetros da cidade, Jeredy, com seu espírito aventureiro, disse: _ O meu pato, vamos dar uma olhada naquela caverna?</p>
+        <p> Larry para não parecer medroso aceitou e os dois partiram para ver a caverna.</p>
+        <p> Quando chegaram lá, eles viram uma placa de aviso para não entrar na caverna, deram uma olhada, mas mesmo com a placa decidiram entrar para explorar. Depois de um tempo explorando a caverna, eles encontraram uma pequena entrada para um espaço na caverna, Jeredy viu a entrada e perguntou para Larry: _ Vamos?</p>
+        <p> Larry respondeu que sim, e quando eles entraram,viram vários pontinhos brilhantes e ficaram impressionados e curiosos sobre oque poderia ser aqueles pontinhos.</p>
+        <div class="center"><img src="95eea1f7-3950-4aed-8481-6873d107f843.jpeg" width="500" height="500"></div>
+        <p class="small-text">Jeredy e seu amigo Larry em uma caverna com vários pontinhos azuis brilhantes em volta deles.</p>
+        <p> Os dois então decidiram ir embora, pois já estava ficando tarde, mas que voltariam com suas mochilas no próximo dia para levar algumas daquelas pedrinhas misteriosas.</p>
+        <p> No outro dia, Jeredy levantou cedo e já mandou mensagem para Larry para eles irem na caverna depois do café da manhã. Quando estavam prontos, os dois pegaram suas bicicletas e suas bolsas e partiram para a caverna.</p>
+        <p> Chegando lá, os dois caminharam pela caverna procurando aquela entrada novamente, mas pegaram um caminho errado e se perderam, quando perceberam que estavam perdidos eles entraram em desespero, então Jeredy disse: _Vamos manter a calma e tentar lembrar por onde viémos.</p>
+        <p> Eles pararam e ficaram conversando sobre de onde os dois poderiam ter vindo. Depois de um tempo conversando eles entraram em um acordo e seguiram caminho, coincidentemente, eles pegaram um caminho que deu direto no lugar das pedrinhas brilhantes, os dois pegaram suas bolsas e pegaram várias pedrinhas e colocaram em suas bolsas. Como os dois já sabiam daquele lugar, eles procuraram a entrada que eles acharam no dia anterior, pois já conheciam o caminho daquela entradinha. Após acharem a saída, pegaram suas bicicletas e foram embora.</p>
+        <div class="center"><img src="24334c7c-243a-4658-8c53-7d876055229d.jpeg" width="500" height="500"></div>
+        <p class="small-text">Jeredy com sua bicicleta, capacete e mochila azuis e Larry cum sua bicicleta e capacete vermelhos e mochila laranja e os dois com as mochilas cheias de diamantes.</p>
+        <p> Quando cada um chegou em sua casa, eles mostraram ao seus pais, os pais deles percebaram que as pedrinhas poderiam ser diamantes e as levaram em uma joalheria da cidade. Lá, o atendente confirmou que eram diamantes, então, os pais de Jeredy e Larry, venderam os diamantes por muito dinheiro.</p>
+        <p> Alguns dias depois, os dois amigos estavam "faceiros", pois acabaram de deixar suas familías milionárias e poderiam comprar o que quisessem, se aposentar novos e viver muito bem.</p>
+        <div class="center"><img src="unnamed (1).jpg" width="500" height="500"></div>
+        <p class="small-text">Jeredy e seu amigo Larry com óculos escuros em uma piscina e em volta deles muitas notas de dinheiro.</p>
+        <p class="small-text">Escritor: Uri Gabriel Carneiro</p>
+        <p class="small-text">Imagens: META AI</p>
+    </div>
+    <script>
+        let currentFontSize = 100;
+
+        function adjustFontSize(change) {
+            currentFontSize += change * 10;
+            if (currentFontSize < 60) currentFontSize = 60;
+            if (currentFontSize > 200) currentFontSize = 200;
+            document.documentElement.style.fontSize = currentFontSize + '%';
+        }
+
+        function toggleContrast() {
+            document.body.classList.toggle('high-contrast');
+        }
+    </script>
+</body>
+</html>
